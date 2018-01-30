@@ -1,0 +1,48 @@
+html, body{
+    padding:0;
+    magin: 0;
+    width: 100%;
+    height:100%;
+}
+    body{
+        background-color: floralwhite;
+    }
+.mainContainer{
+    background-color: blue;
+    width:80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.header{
+    width: 100%;
+    height: 200px;
+    background-image: url("header.jpg");
+    background-size: cover;
+    margin-bottom: 20px;
+}
+.bottom{
+    display: flex;
+}
+.leftSideBar{
+    width: calc(33% - 20px);
+    padding: 20px;
+}
+.myLink{
+    display: block;
+}
+.myLink img{
+    height: 60px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-right: 20px;
+
+}
+.rightSideBar{
+    width: calc(66% -20px);
+    margin-left: 20px;
+}
+.paragraph{
+
+}
